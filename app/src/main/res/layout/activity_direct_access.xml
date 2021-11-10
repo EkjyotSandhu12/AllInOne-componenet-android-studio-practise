@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/directAccess"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ButtonView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:padding="13dp"/>
+
+        <Button
+            android:id="@+id/ChipView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="chips"
+            android:padding="13dp"/>
+
+        <Button
+            android:id="@+id/EditTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EditText"
+            android:padding="13dp"/>
+
+        <Button
+            android:id="@+id/ImageBtnView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ImageBtn"
+            android:padding="13dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:padding="13dp"/>
+
+
+</LinearLayout>

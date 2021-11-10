@@ -51,4 +51,7 @@
         android:layout_gravity="center"
         android:id="@+id/disableButton"/>
 
+    <include layout="@layout/activity_direct_access"
+        android:gravity="bottom"/>
+
 </LinearLayout>
