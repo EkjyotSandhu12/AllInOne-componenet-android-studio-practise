@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/kinu/AndroidStudioProjects/AllInOne/app/src/main/res/drawable-v24/chips_customization.xml" value="0.2203125" />
+        <entry key="..\:/Users/kinu/AndroidStudioProjects/AllInOne/app/src/main/res/drawable-v24/image_button_back_change.xml" value="0.10520833333333333" />
         <entry key="..\:/Users/kinu/AndroidStudioProjects/AllInOne/app/src/main/res/drawable/buttondisabled.xml" value="0.2046875" />
         <entry key="..\:/Users/kinu/AndroidStudioProjects/AllInOne/app/src/main/res/drawable/coolbackgroundshape.xml" value="0.2046875" />
         <entry key="..\:/Users/kinu/AndroidStudioProjects/AllInOne/app/src/main/res/drawable/disabled_button.xml" value="0.2203125" />
@@ -22,8 +24,10 @@
         <entry key="..\:/Users/kinu/AndroidStudioProjects/AllInOne/app/src/main/res/drawable/tricolor_shape.xml" value="0.2203125" />
         <entry key="..\:/Users/kinu/AndroidStudioProjects/AllInOne/app/src/main/res/layout/activity_auto_fill_edit_text.xml" value="0.18854166666666666" />
         <entry key="..\:/Users/kinu/AndroidStudioProjects/AllInOne/app/src/main/res/layout/activity_button.xml" value="0.25" />
+        <entry key="..\:/Users/kinu/AndroidStudioProjects/AllInOne/app/src/main/res/layout/activity_chips.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/kinu/AndroidStudioProjects/AllInOne/app/src/main/res/layout/activity_edit_input_text_layout.xml" value="0.22" />
         <entry key="..\:/Users/kinu/AndroidStudioProjects/AllInOne/app/src/main/res/layout/activity_edittext.xml" value="0.22" />
+        <entry key="..\:/Users/kinu/AndroidStudioProjects/AllInOne/app/src/main/res/layout/activity_image_button.xml" value="0.22" />
         <entry key="..\:/Users/kinu/AndroidStudioProjects/AllInOne/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/kinu/AndroidStudioProjects/AllInOne/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1125" />
       </map>
