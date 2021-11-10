@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ChipsActivity"
     android:orientation="vertical"
-    android:background="@color/white">
+    android:background="#FF9191">
 
     <TextView
         android:layout_width="match_parent"
@@ -90,7 +90,7 @@
         android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ANYONE"
+        android:text="Multi Seelction"
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_marginTop="10dp"/>
@@ -104,30 +104,59 @@
             style="@style/Widget.MaterialComponents.Chip.Filter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Trending"/>
+            android:text="Option1"/>
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip2"
             style="@style/Widget.MaterialComponents.Chip.Filter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Arrival"/>
+            android:text="Option2"/>
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip3"
             style="@style/Widget.MaterialComponents.Chip.Filter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Best Selling"/>
+            android:text="Option 3"/>
 
     </com.google.android.material.chip.ChipGroup>
 
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Single Selection"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:singleSelection="true">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip4"
+            style="@style/Widget.MaterialComponents.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trending"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip5"
+            style="@style/Widget.MaterialComponents.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Arrival"/>
+
+    </com.google.android.material.chip.ChipGroup>
 
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button"
+        android:id="@+id/filterButton"
         android:text="Submit"
         android:layout_marginTop="20dp">
 
@@ -136,6 +165,7 @@
     <TextView
         android:id="@+id/FilterChipOutput"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content"/>
+
 
 </LinearLayout>
