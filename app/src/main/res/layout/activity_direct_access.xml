@@ -40,12 +40,22 @@
             android:padding="13dp"/>
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
     <Button
         android:id="@+id/TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
         android:padding="13dp"/>
+    <Button
+        android:id="@+id/CheckBoxView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        android:padding="13dp"/>
 
-
+    </LinearLayout>
 </LinearLayout>

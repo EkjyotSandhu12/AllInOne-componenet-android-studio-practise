@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
             findViewById(R.id.TextView).setOnClickListener(this);
             findViewById(R.id.EditTextView).setOnClickListener(this);
             findViewById(R.id.ChipView).setOnClickListener(this);
+            findViewById(R.id.CheckBoxView).setOnClickListener(this);
     }
 
     @Override
@@ -46,6 +47,10 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
 
             case R.id.ChipView:
                 intent = new Intent(this, ChipsActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.CheckBoxView:
+                intent = new Intent(this, CheckBoxActivity.class);
                 startActivity(intent);
                 break;
         }
