@@ -47,6 +47,8 @@
         <entry key="..\:/Users/monty/AndroidStudioProjects/AllInOne-component-android-studio-practise/app/src/main/res/layout/activity_direct_access.xml" value="0.2046875" />
         <entry key="..\:/Users/monty/AndroidStudioProjects/AllInOne-component-android-studio-practise/app/src/main/res/layout/activity_edittext.xml" value="0.2046875" />
         <entry key="..\:/Users/monty/AndroidStudioProjects/AllInOne-component-android-studio-practise/app/src/main/res/layout/activity_fragment_test.xml" value="0.365625" />
+        <entry key="..\:/Users/monty/AndroidStudioProjects/AllInOne-component-android-studio-practise/app/src/main/res/layout/activity_image_button.xml" value="0.13425925925925927" />
+        <entry key="..\:/Users/monty/AndroidStudioProjects/AllInOne-component-android-studio-practise/app/src/main/res/layout/activity_main.xml" value="0.365625" />
         <entry key="..\:/Users/monty/AndroidStudioProjects/AllInOne-component-android-studio-practise/app/src/main/res/layout/activity_progress_bar.xml" value="0.2046875" />
         <entry key="..\:/Users/monty/AndroidStudioProjects/AllInOne-component-android-studio-practise/app/src/main/res/layout/activity_recycle_view.xml" value="0.365625" />
         <entry key="..\:/Users/monty/AndroidStudioProjects/AllInOne-component-android-studio-practise/app/src/main/res/layout/activity_side_navigation.xml" value="0.365625" />
@@ -56,8 +58,10 @@
         <entry key="..\:/Users/monty/AndroidStudioProjects/AllInOne-component-android-studio-practise/app/src/main/res/layout/fragment_seconds.xml" value="0.365625" />
         <entry key="..\:/Users/monty/AndroidStudioProjects/AllInOne-component-android-studio-practise/app/src/main/res/layout/recycle_view_sample.xml" value="0.33" />
         <entry key="..\:/Users/monty/AndroidStudioProjects/AllInOne-component-android-studio-practise/app/src/main/res/layout/side_navgation_wallpaper.xml" value="0.365625" />
+        <entry key="..\:/Users/monty/AndroidStudioProjects/AllInOne-component-android-studio-practise/app/src/main/res/layout/toolbar_custom_layout.xml" value="0.365625" />
         <entry key="..\:/Users/monty/AndroidStudioProjects/AllInOne-component-android-studio-practise/app/src/main/res/menu/bottom_nav_menu.xml" value="0.365625" />
         <entry key="..\:/Users/monty/AndroidStudioProjects/AllInOne-component-android-studio-practise/app/src/main/res/menu/side_navigation.xml" value="0.365625" />
+        <entry key="..\:/Users/monty/AndroidStudioProjects/AllInOne-component-android-studio-practise/app/src/main/res/menu/side_navigation_menu.xml" value="0.20104166666666667" />
       </map>
     </option>
   </component>

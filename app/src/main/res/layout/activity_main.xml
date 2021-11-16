@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-    <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/toolbar_custom_layout"
+        android:id="@+id/toolbar"/>
+
+    <ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -83,5 +94,6 @@
         android:gravity="bottom"/>
 
 </LinearLayout>
-
     </ScrollView>
+
+</LinearLayout>

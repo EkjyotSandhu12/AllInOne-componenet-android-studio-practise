@@ -1,9 +1,12 @@
 package com.example.allinone;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.View;
 import android.widget.TextView;
 
@@ -20,6 +23,16 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
             findViewById(R.id.EditTextView).setOnClickListener(this);
             findViewById(R.id.ChipView).setOnClickListener(this);
             findViewById(R.id.CheckBoxView).setOnClickListener(this);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.bottom_nav_menu, menu);
+        getMenuInflater().inflate(R.menu.side_navigation_menu, menu);
+        return true;
     }
 
     @Override
